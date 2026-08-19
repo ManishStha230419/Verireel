@@ -1,0 +1,12 @@
+Flask>=3.1,<4
+curl-cffi>=0.14,<1
+ImageHash>=4.3,<5
+numpy>=1.26,<3
+opencv-python-headless>=4.10,<5
+Pillow>=10.4,<13
+PyWavelets>=1.6,<2
+python-dotenv>=1.0,<2
+reportlab>=4.2,<5
+scipy>=1.13,<2
+waitress>=3.0,<4
+yt-dlp>=2025.1.1

@@ -1,0 +1,23 @@
+{
+  "name": "VeriReel controlled pilot validation dataset",
+  "scope": "Synthetic, non-sensitive proof-of-function; not an official effectiveness benchmark.",
+  "seed": 20260815,
+  "base_clips": 18,
+  "frames_per_base_clip": 48,
+  "fps": 8,
+  "resolution": {
+    "width": 112,
+    "height": 192
+  },
+  "transformations": [
+    "mirror",
+    "crop_resize",
+    "recompression",
+    "caption_overlay",
+    "brightness_shift",
+    "speed_1_25x"
+  ],
+  "positive_pairs": 108,
+  "negative_pairs": 108,
+  "manifest_sha256": "7c2ba9d00ec4a643003eb09853bf16a2b030f9f1b0ab7373bbaf8e8b7dcba742"
+}

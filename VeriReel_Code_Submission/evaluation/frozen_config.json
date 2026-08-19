@@ -1,0 +1,24 @@
+{
+  "protocol_version": "1.0",
+  "evaluation_name": "VeriReel controlled pilot validation",
+  "split": "frozen_test",
+  "decision_threshold": 75.0,
+  "review_band_points": 15.0,
+  "sample_fps": 1.0,
+  "max_samples": 240,
+  "bootstrap_iterations": 1000,
+  "bootstrap_seed": 20260815,
+  "baseline": {
+    "name": "single pHash sliding-window matcher",
+    "mean_hamming_threshold": 10.0,
+    "mirroring": false
+  },
+  "expected_fusion_weights": {
+    "perceptual": 0.45,
+    "temporal": 0.25,
+    "color": 0.2,
+    "motion": 0.1
+  },
+  "claim_boundary": "Controlled synthetic proof-of-function only. These results do not replace VCDB, CC_WEB_VIDEO or VCSL evaluation and do not establish real-world effectiveness."
+}
+

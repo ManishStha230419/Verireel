@@ -1,0 +1,8 @@
+VeriReel code submission
+
+This package contains the application, security and comparison modules, tests, frozen evaluation configuration, dataset manifest, provenance record, benchmark results and result figures.
+
+The generated evaluation videos are intentionally omitted to keep the package small. They can be recreated deterministically with: python evaluation/generate_controlled_dataset.py
+
+Run the test suite with: python -m unittest discover -s tests -v
+Run the frozen benchmark after generating the videos with: python evaluation/run_benchmark.py
